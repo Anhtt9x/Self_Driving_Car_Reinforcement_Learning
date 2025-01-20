@@ -37,7 +37,7 @@ class Relay(object):
         return map(lambda x : Variable(torch.cat(x,0)), samples)
     
     
-class DQN():
+class Dqn():
     def __init__(self, input_size, nb_action, gamma):
         self.gamma = gamma
         self.reward_window = []
